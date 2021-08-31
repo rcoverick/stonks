@@ -25,4 +25,4 @@ func (tv *TradeVolume) CountTransactionCommand(t *models.Transaction) {
 		tv.TotalTrades[symbol] = 1
 	}
 
-}
+} 
